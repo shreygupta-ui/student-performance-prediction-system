@@ -23,6 +23,7 @@ B.Tech CSE (AI & ML) minor project. A Streamlit web app that estimates a student
 - **Target:** `G3` (final grade). **Input grade:** `G1` (first period). `G2` and `G3` are never inputs (data leakage).
 - **How to get it:** a copy is already in `data/`. To re-download: open the UCI link, click *Download*, unzip, and copy `student-mat.csv` into the `data` folder.
 - Citation: Cortez, P. & Silva, A. (2008). *Using Data Mining to Predict Secondary School Student Performance.* FUBUTEC 2008, pp. 5–12. (Check the dataset DOI with the "Cite" button on the UCI page.)
+- **Dataset license:** CC BY 4.0 — © original dataset contributors. Source: https://archive.ics.uci.edu/dataset/320/student+performance. The dataset is licensed separately from this project's MIT-licensed code.
 - 38 students with `G3 = 0` all have 0 absences (probably course leavers). They are excluded from training (see `src/config.py`, `EXCLUDE_ZERO_GRADES`).
 
 ## Run on your computer (Windows steps; macOS/Linux in brackets)
