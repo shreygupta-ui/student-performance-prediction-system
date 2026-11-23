@@ -1,5 +1,10 @@
 # Student Performance Prediction System Using Machine Learning
 
+## Live Demo
+
+🌐 [Open Student Performance Prediction System](https://student-performance-shrey.streamlit.app)
+
+---
 B.Tech CSE (AI & ML) minor project. A Streamlit web app that estimates a student's final grade (0–20) from academic and study-related information, using a model trained on the real UCI Student Performance dataset.
 
 ## What is in this folder
